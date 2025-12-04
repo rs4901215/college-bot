@@ -7,7 +7,7 @@ const express = require('express'); // Keeps server alive
 
 // --- CONFIGURATION ---
 const STUDENT_GROUP_ID = '120363404892113027@g.us'; 
-const MONGO_URI = 'mongodb+srv://nexrael:SiDarth@1432@collegebot.mzgkhxi.mongodb.net/?appName=CollegeBot'; // <--- PASTE YOUR MONGODB STRING HERE
+const MONGO_URI = 'mongodb+srv://nexrael:SiDarth%401432@collegebot.mzgkhxi.mongodb.net/?appName=CollegeBot';
 
 // MEMORY
 let lastPollMessage = null;
@@ -88,4 +88,5 @@ mongoose.connect(MONGO_URI).then(() => {
 
     client.initialize();
 });
+
 
