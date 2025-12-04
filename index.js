@@ -50,8 +50,8 @@ mongoose.connect(MONGO_URI).then(() => {
     });
 
     client.on('ready', () => {
-        console.log('✅ SYSTEM V2.0 (SERVER) ONLINE');
-    });
+    console.log('✅ SYSTEM V2.1 (UPDATED) ONLINE - NO QR REQUIRED');
+});
 
     client.on('remote_session_saved', () => {
         console.log('💾 Session Saved to Database');
@@ -88,5 +88,6 @@ mongoose.connect(MONGO_URI).then(() => {
 
     client.initialize();
 });
+
 
 
